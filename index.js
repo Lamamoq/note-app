@@ -13,7 +13,7 @@ const port = 3000;
 
 // Koble til mongodb databasen
 const url =
-  "mongodb+srv://NoteTakingApp:hUe63kUC9H2KnqFw@notes.tcbocbd.mongodb.net/?retryWrites=true&w=majority";
+ "mongodb+srv://lamaalmqayyad:SIIkyhxkdtYwWyAO@noteapp.ii7vlrs.mongodb.net/?retryWrites=true&w=majority";
 async function kobleTilDatabase() {
   try {
     await mongoose.connect(url);
